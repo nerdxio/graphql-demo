@@ -1,8 +1,6 @@
 package io.nerd.graphqldemo.util;
 
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.nerd.graphqldemo.post.Post;
 import io.nerd.graphqldemo.post.PostRepository;
 import io.nerd.graphqldemo.post.Posts;
 import org.slf4j.Logger;
@@ -12,9 +10,7 @@ import org.springframework.stereotype.Component;
 import com.fasterxml.jackson.core.type.TypeReference;
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Time;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
+
 
 @Component
 public class DataLoader implements CommandLineRunner {
